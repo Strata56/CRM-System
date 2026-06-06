@@ -66,7 +66,7 @@ def delete_ticket(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["crmsystem-fawn.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
