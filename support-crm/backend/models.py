@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, Text, DateTime
 from datetime import datetime,UTC
 
 from database import Base
-
+    
 
 class Ticket(Base):
     __tablename__ = "tickets"
